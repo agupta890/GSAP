@@ -1,16 +1,22 @@
-let tl = gsap.timeline()
-
-tl.from('.title',{
-    y:50,
+gsap.from("#page1 .box",{
+    scale:0,
     delay:1,
     duration:1,
-    opacity:0
+    rotate:360
+
 })
 
-tl.from('p',{
-    y:50,
-    delay:1,
+gsap.from("#page2 .box",{
+    scale:0,
+    
     duration:1,
-    opacity:0,
-    stagger:0.5
+    rotate:360,
+    scrollTrigger:{
+        trigger:"#page2 .box",
+        scroller:"body",
+        markers:true,
+        start:"top 80%",
+        end:"bottom top"
+    }
+
 })

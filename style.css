@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:white;
-    background-color: black;
+   
    
 }
 html,body{
@@ -11,17 +10,37 @@ html,body{
     width: 100%;
 }
 
-.navbar{
-padding: 10px;
-margin: 10px;
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
 }
-#navlist{
-    font-size: 20px;
-    display:flex;
-    gap:20px
-   
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(152, 135, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 28, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
 }
