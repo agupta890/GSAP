@@ -24,11 +24,17 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: rgb(152, 135, 235);
-    display: flex;
+    /* display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:10px */
 }
 
+#page2 h1{
+    font-size: 30vw;
+    text-transform: uppercase;
+}
 
 #page3{
     height: 100%;
